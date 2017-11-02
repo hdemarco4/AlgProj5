@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Proj5 {
+public class Floyd {
     public static void main(String[] args) {
         int d = 0;
 
@@ -46,7 +46,7 @@ public class Proj5 {
             tableBuild(v, d, dGrid, weights);
         }
     }
-    
+
     public static void pGrid(int d, Object[][][] dGrid){
         System.out.println("D " + d);
         for (Object[][] x : dGrid) {
